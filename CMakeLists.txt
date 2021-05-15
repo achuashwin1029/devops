@@ -7,7 +7,7 @@ project(Tutorial VERSION 1.0)
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
-
+set(EXECUTABLE_OUTPUT_PATH "../artifacts/bin")
 # add the executable
 
 add_executable(Tutorial simple.cpp)
